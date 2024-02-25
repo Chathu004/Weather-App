@@ -1,0 +1,96 @@
+/*----------------Header CSS ---------------------*/
+header {
+    width: 100%;
+      color: #fff;
+      text-align: center;
+      background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('assets/pexels-johannes-plenio-1118873.jpg');
+      background-position: center;
+      padding-bottom: 5%;
+  }
+  
+  nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  
+  }
+  
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #3085C3;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  .nav-links ul li:hover::after{
+    width: 100%;
+  }
+
+  .title{
+    font-size: 300%;
+    margin-top: 1%;
+    text-align: center;
+  
+}
+
+#searchbtn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.heders{
+    text-align: center;
+    color: #fff;
+}
+
+#name{
+    color: #fff;
+}
+
+#region{
+    color: #fff;
+}
+#country{
+    color: #fff;
+}
+#time{
+    color: #fff;
+}
+#temp{
+    color: #fff;
+}
+#cloudy{
+    color: #fff;
+}
+
+#current-weather{
+   
+     margin: 10px;
+     padding: 40px;
+     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('assets/pexels-brett-sayles-1431822.jpg');
+   }
